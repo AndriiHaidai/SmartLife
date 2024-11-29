@@ -5,10 +5,10 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="1c1d494c118603dd-1" value="Pool" style="swimlane;html=1;childLayout=stackLayout;startSize=20;rounded=0;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;" parent="1" vertex="1">
-          <mxGeometry x="40" y="20" width="810" height="990" as="geometry" />
+          <mxGeometry x="40" y="20" width="810" height="991" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-2" value="Lane 1" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry y="20" width="310" height="970" as="geometry" />
+          <mxGeometry y="20" width="310" height="971" as="geometry" />
         </mxCell>
         <mxCell id="Up67SMPkmNF4Uc1X-wMc-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1c1d494c118603dd-2" source="60571a20871a0731-4" target="Up67SMPkmNF4Uc1X-wMc-3">
           <mxGeometry relative="1" as="geometry" />
@@ -51,25 +51,45 @@
         <mxCell id="Up67SMPkmNF4Uc1X-wMc-21" value="Автоматизація вимкнути: self" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-3">
           <mxGeometry y="310" width="310" height="30" as="geometry" />
         </mxCell>
+        <mxCell id="Up67SMPkmNF4Uc1X-wMc-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1c1d494c118603dd-2" source="Up67SMPkmNF4Uc1X-wMc-36" target="Up67SMPkmNF4Uc1X-wMc-50">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="Up67SMPkmNF4Uc1X-wMc-36" value="Місто зникло. Retry AC-ON." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1c1d494c118603dd-2">
-          <mxGeometry y="471" width="310" height="190" as="geometry">
+          <mxGeometry y="471" width="310" height="210" as="geometry">
             <mxRectangle y="100" width="310" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="Up67SMPkmNF4Uc1X-wMc-37" value="МІСТО Flooding detection state: Normal&lt;div&gt;STATION_AC Flooding detection state: Normal&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-36">
-          <mxGeometry y="30" width="310" height="70" as="geometry" />
+        <mxCell id="Up67SMPkmNF4Uc1X-wMc-37" value="МІСТО Flooding detection state: Normal&lt;div&gt;and&lt;br&gt;&lt;div&gt;STATION_AC Flooding detection state: Normal&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-36">
+          <mxGeometry y="30" width="310" height="90" as="geometry" />
         </mxCell>
         <mxCell id="Up67SMPkmNF4Uc1X-wMc-41" value="Затримка 25с" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-36">
-          <mxGeometry y="100" width="310" height="30" as="geometry" />
+          <mxGeometry y="120" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Up67SMPkmNF4Uc1X-wMc-38" value="Повідомлення" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-36">
-          <mxGeometry y="130" width="310" height="30" as="geometry" />
+          <mxGeometry y="150" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="Up67SMPkmNF4Uc1X-wMc-45" value="Fingerbot AC 4s[POWER]. Switch: On" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-36">
-          <mxGeometry y="160" width="310" height="30" as="geometry" />
+          <mxGeometry y="180" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Up67SMPkmNF4Uc1X-wMc-50" value="Місто зникло. Retry Power-ON." style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1c1d494c118603dd-2">
+          <mxGeometry y="711" width="310" height="210" as="geometry">
+            <mxRectangle y="100" width="310" height="30" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="Up67SMPkmNF4Uc1X-wMc-51" value="МІСТО Flooding detection state: Normal&lt;div&gt;and&lt;br&gt;&lt;div&gt;STATION_AC Flooding detection state: Normal&lt;/div&gt;&lt;/div&gt;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-50">
+          <mxGeometry y="30" width="310" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Up67SMPkmNF4Uc1X-wMc-52" value="Затримка 40с" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-50">
+          <mxGeometry y="120" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Up67SMPkmNF4Uc1X-wMc-53" value="Повідомлення" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-50">
+          <mxGeometry y="150" width="310" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Up67SMPkmNF4Uc1X-wMc-56" value="Запустити: Station Power-ON (6+7+4s)" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;spacingLeft=4;spacingRight=4;overflow=hidden;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;rotatable=0;whiteSpace=wrap;html=1;" vertex="1" parent="Up67SMPkmNF4Uc1X-wMc-50">
+          <mxGeometry y="180" width="310" height="30" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-3" value="Lane 2" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry x="310" y="20" width="250" height="970" as="geometry" />
+          <mxGeometry x="310" y="20" width="250" height="971" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-40" style="edgeStyle=none;rounded=0;html=1;labelBackgroundColor=none;startArrow=none;startFill=0;startSize=5;endArrow=classicThin;endFill=1;endSize=5;jettySize=auto;orthogonalLoop=1;strokeWidth=1;fontFamily=Verdana;fontSize=12" parent="1c1d494c118603dd-3" source="1c1d494c118603dd-11" target="1c1d494c118603dd-15" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -108,7 +128,7 @@
           <mxGeometry x="40" y="782" width="105" height="55" as="geometry" />
         </mxCell>
         <mxCell id="1c1d494c118603dd-4" value="Lane 3" style="swimlane;html=1;startSize=20;" parent="1c1d494c118603dd-1" vertex="1">
-          <mxGeometry x="560" y="20" width="250" height="970" as="geometry" />
+          <mxGeometry x="560" y="20" width="250" height="971" as="geometry" />
         </mxCell>
         <mxCell id="60571a20871a0731-8" value="Action" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;comic=0;labelBackgroundColor=none;strokeWidth=1;fontFamily=Verdana;fontSize=12;align=center;arcSize=50;" parent="1c1d494c118603dd-4" vertex="1">
           <mxGeometry x="50" y="244" width="100" height="30" as="geometry" />
